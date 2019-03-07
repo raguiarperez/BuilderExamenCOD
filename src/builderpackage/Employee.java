@@ -36,4 +36,11 @@ public class Employee
       this.hireMonth = newHireMonth;
       this.hireDate = newHireDate;
    }
+
+    @Override
+    public String toString() {
+        return "Employee=" + " lastName=" + lastName + ", middleName=" + middleName + ", firstName=" + firstName + ", id=" + id + ", birthYear=" + birthYear + ", birthMonth=" + birthMonth + ", birthDate=" + birthDate + ", hireYear=" + hireYear + ", hireMonth=" + hireMonth + ", hireDate=" + hireDate + '}';
+    }
+   
+   
 }
